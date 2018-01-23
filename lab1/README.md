@@ -1,1 +1,2 @@
-Zheng Guo's ITMD361 lab 1
+LAB 1
+Zheng Guo's lab1
