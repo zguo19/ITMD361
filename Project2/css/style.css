@@ -1,0 +1,164 @@
+html {
+	background-color:whitesmoke;
+	margin: 0em 3em 0em 3em;
+	height: 130%;
+}
+body {
+    background-color:lightgoldenrodyellow;
+    font-family: Arial;
+	padding-top: 1em;
+	padding-right: 3em;
+	min-height: 100%;
+	padding-bottom: 2em;
+	padding-left: 3em;
+}
+p{
+	text-align: center;
+}
+h1{
+	padding: 0.5em;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 3em;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+	margin-left: -3em;
+	margin-right: -3em;
+	padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+	display:inline-block;
+	min-width: 1em;
+	min-height: 0.5em;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/**
+ * Home page:
+ */
+#intro-title{
+	color:white;
+}
+ #intro p{
+	/**font-family: 'IBM Plex Serif', serif;*/
+	font-family: 'Gaegu', cursive;;
+	font-size: 30px;
+	color:white;
+	margin:0;
+ }
+ #intro{
+	 border:1em outset;
+	 position: relative;
+	 float: right;
+	 background-image: url('../media/paper.png');
+	 background-color: black;
+ }
+ #bgm{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	float: right;
+ }
+ div.music{
+	 float:right;
+ }
+
+#bgm_title{
+	padding:0;
+	margin:10px;
+	text-align:center;
+	background-color: pink;
+}
+
+/**
+ * my favorite:
+ */
+ #myfavorite_text{
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 2em;
+ }
+.pic{
+	 border: 3px solid pink;
+ }
+.pic:hover {
+    border: 1px solid #777;
+}
+.gallery img {
+	max-height: 250px;
+	min-width: 100%;
+	margin-bottom: 30px;
+}
+.gallery {
+	column-count: 3;
+	column-gap: 1px;
+}
+#us img{
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+}
+.img_title{
+	border-color: black;
+}
+
+/**
+ * Resume:
+ */
+ #dl{
+	border: 1em;
+	position: fixed;
+	margin: -1em 0 0 -3em;
+	padding: 5px;
+	background-color: pink;
+}
+.paper {
+	background-image: url('../media/paper.png');
+	background-color: #0093ad;
+	padding:10px;
+}
+
+/**
+ * Contact:
+ */
+.contact_title{
+	font-size:2em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#phone{
+	width: 4%;
+	height:auto;
+}
+#phone2{
+	transform: rotateY(180deg);
+	width: 4%;
+	height:auto;
+}
+
+/**
+* media query:
+*/
+@media (min-width: 900px) {
+	.paper {
+		margin: 10px 110px;
+	}
+}
