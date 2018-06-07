@@ -1,0 +1,71 @@
+div{
+    background-color: black;
+    margin: 5% 20% 7% 20%;
+    padding: 3% 3% 3% 3%;
+}
+
+body{
+    margin:0;
+    background-image: url("media/Optimized-milky-way.jpg");
+    background-size: 1500px 843px;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: black;
+    color:white; 
+    text-align: center
+}
+
+h1{
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    background-color: whitesmoke;
+    width:54%;
+    border: 15px solid gold;
+    padding: 2%;
+    margin: 0% 0% 5% 20%;
+}
+
+.earth{
+    background-color: rgb(120, 182, 202);
+}
+
+.mars{
+    background-color: lightgoldenrodyellow;
+}
+
+.venus{
+    background-color: lightpink;
+}
+
+.jupiter{
+    background-color: lightgrey;
+}
+
+
+#planet_names{
+    background-color: white;
+    font-family: 'VT323', monospace;
+}
+
+table{
+    text-align: center;
+    border: 10px solid black;
+    border: 1px;
+}
+
+.col{
+    text-align: left;
+    background-color: lavender;
+    font-family: 'Slabo 27px', serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
